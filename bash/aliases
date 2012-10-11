@@ -1,6 +1,7 @@
 #Finder
 alias o='open . &'
 alias chrome='open -a Chrome'
+alias dev='cd ~/Documents/projects/'
 
 #Git
 alias g='git status'
