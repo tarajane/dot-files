@@ -1,0 +1,9 @@
+# Colored Output via @tihunter
+# http://thomashunter.name/blog/git-colored-output-shortcut-commands-autocompletion-and-bash-prompt/
+
+[color]
+        diff = auto
+        status = auto
+        branch = auto
+[format]
+        pretty = "Commit:  %C(yellow)%H%nAuthor:  %C(green)%aN <%aE>%nDate:    (%C(red)%ar%Creset) %ai%nSubject: %s%n%n%b"
