@@ -2,6 +2,7 @@
 alias o='open . &'
 alias chrome='open -a Chrome'
 alias dev='cd ~/Documents/projects/'
+alias sublime='open -a "Sublime Text 2"'
 
 #Git
 alias g='git status'
