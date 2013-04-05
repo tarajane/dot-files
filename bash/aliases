@@ -1,8 +1,8 @@
 #Finder
 alias o='open . &'
-alias chrome='open -a Chrome'
-alias dev='cd ~/Documents/projects/'
-alias sublime='open -a "Sublime Text 2"'
+alias chrome='open -a Google Chrome'
+alias dev='cd ~/Documents/dev/'
+alias subl='open -a "Sublime Text 2"'
 alias server='python -m SimpleHTTPServer'
 
 #Git
@@ -23,5 +23,6 @@ alias gc='git commit -m'
 alias gca='git commit --amend'
 alias eg='subl .git/config'
 alias gco='git checkout'
-alias gl='git log'
+alias gl='git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=shortgit log'
 alias grud='git rebase upstream/develop'
+alias gr='git rebase -i'
